@@ -135,17 +135,25 @@ export const Projects = () => {
             >
               Work Project | WordPress
             </motion.p>
-            <motion.p
-              initial={{ opacity: 0, x: 50 }}
+              <motion.p
+              initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-              CRESTICO, INC. offers autonomy and cutting-edge tools for
-              independent professionals, fostering a supportive community for
-              collaborative success in deal closures.
+             Role: Main WordPress Developer
             </motion.p>
+         <motion.p
+  initial={{ opacity: 0, x: 50 }}
+  whileInView={{ opacity: 1, x: 0 }}
+  transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
+  viewport={{ once: true }}
+  className="text-center text-gray-500"
+>
+  Built using the Divi theme, this real estate website features listing plugins, Yoast SEO, and custom-coded styling. During this project, I also gained experience with GHL and funnel marketing.
+</motion.p>
+
             <div className="flex gap-5 justify-center">
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 WordPress
@@ -218,6 +226,15 @@ export const Projects = () => {
               className="text-center text-gray-500"
             >
               Work Project  | WordPress
+            </motion.p>
+              <motion.p
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
+              viewport={{ once: true }}
+              className="text-center text-gray-500"
+            >
+             Role: Help Payment Integration
             </motion.p>
             <motion.p
               initial={{ opacity: 0, x: -50 }}
@@ -297,6 +314,15 @@ export const Projects = () => {
               className="text-center text-gray-500"
             >
               Work Project | Front-End
+            </motion.p>
+              <motion.p
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
+              viewport={{ once: true }}
+              className="text-center text-gray-500"
+            >
+             Role: Main Frontend Developer
             </motion.p>
             <motion.p
               initial={{ opacity: 0, x: 50 }}
@@ -437,6 +463,15 @@ export const Projects = () => {
             >
               Work Project | Front-End
             </motion.p>
+              <motion.p
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
+              viewport={{ once: true }}
+              className="text-center text-gray-500"
+            >
+             Role: Main Frontend Developer
+            </motion.p>
             <motion.p
               initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -572,6 +607,15 @@ export const Projects = () => {
               className="text-center text-gray-500"
             >
              Full-Stack Work Project | Freelance
+            </motion.p>
+              <motion.p
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
+              viewport={{ once: true }}
+              className="text-center text-gray-500"
+            >
+             Role: Main Developer
             </motion.p>
           <motion.p
   initial={{ opacity: 0, x: -50 }}
