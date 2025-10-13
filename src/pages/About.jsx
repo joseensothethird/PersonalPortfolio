@@ -71,92 +71,34 @@ export const About = () => {
           variants={textVariant}
           className="flex flex-col gap-5 sm:text-center xl:text-justify"
         >
-          <h1 className="text-blue-400 font-bold">ABOUT ME 😉</h1>
-          <h2 className="text-2xl text-slate-900 font-bold sm:text-center md:text-start">
-            A dedicated Remote Web Developer based in Valenzuela, Philippines 📍
-          </h2>
-         <motion.p
+         <h1 className="text-blue-400 font-bold">ABOUT ME 😉</h1>
+<h2 className="text-2xl text-slate-900 font-bold sm:text-center md:text-start">
+  A dedicated Remote Web Developer based in Valenzuela, Philippines 📍
+</h2>
+
+<motion.p
   initial={{ opacity: 0, y: 20 }}
   whileInView={{ opacity: 1, y: 0 }}
   transition={{ duration: 0.6, ease: "easeOut" }}
   viewport={{ once: true, amount: 0.8 }}
   className="sm:text-center xl:text-start text-gray-800 tracking-wide text-[16px] sm:mt-0 leading-6"
 >
-  <strong>Experienced Frontend Developer | React.js | Vue.js | WordPress</strong>  
-  <br />
-  I specialize in modern, responsive, and high-performance websites using React.js, Vue.js, and WordPress to create sleek, user-friendly interfaces.  
+  <strong>Hi, I’m Jose C. Enso III</strong> — a Full-Stack Web Developer and Computer Engineer 
+  skilled in <strong>React.js, Vue.js, Node.js, WordPress,</strong> and <strong>Shopify</strong>.  
+  I build modern, responsive, and high-performance websites with seamless UI/UX and clean backend logic.  
   <br /><br />
-  <strong>What I Offer:</strong>  
+  <Code size={16} className="inline-block mr-2" /> Frontend: React.js, Vue.js, Tailwind  
   <br />
-  <Code size={16} className="inline-block mr-2" /> Custom Web Development – React.js, Vue.js, Angular.js  
+  <Code size={16} className="inline-block mr-2" /> Backend: Node.js, Express, NestJS  
   <br />
-  <Code size={16} className="inline-block mr-2" /> WordPress Development – Elementor, Divi, custom coding  
+  <Code size={16} className="inline-block mr-2" /> CMS & eCommerce: WordPress, Shopify  
   <br />
-  <Code size={16} className="inline-block mr-2" /> Custom Shopify Development – Themes, Liquid, and Storefront Setup  
-  <br />
-  <FileCode size={16} className="inline-block mr-2" /> Figma to Web – Convert designs into functional websites  
-  <br />
-  <Link size={16} className="inline-block mr-2" /> API Integration – Seamless third-party connections  
-  <br />
-  <Zap size={16} className="inline-block mr-2" /> Performance Optimization – Faster load times  
-  <br />
-  <Smartphone size={16} className="inline-block mr-2" /> Responsive Design – Tailwind CSS, Bootstrap, CSS Grid  
+  <Zap size={16} className="inline-block mr-2" /> Currently exploring Cybersecurity 🔐  
 </motion.p>
 
 
-          <h1
-            className="text-black font-bold"
-            onClick={() => toggleAccordion("certificates")}
-          >
-            CERTIFICATES 📝 ▽
-          </h1>
-          {openSection === "certificates" && (
-            <motion.p
-              initial="offScreen"
-              whileInView="onScreen"
-              viewport={{ once: true, amount: 0.8 }}
-              className="opacity-60"
-            >
-              <ul>
-                <li>
-                  <a className="inline  text-blue-500">
-                    <strong>Google Cybersecurity</strong> -
-                  </a>
-                  <p className="inline ">Coursera (Sept 2024 - Ongoing)</p>
-                </li>
-                <li>
-                  <a
-                    href="https://drive.google.com/file/d/1luq1vOnEv4jIkTawkj1IKYsVvsN7e43L/view"
-                    className="inline  text-blue-500"
-                  >
-                    <strong>
-                      Complete JavaScript, XML, AJAX and React Bootcamp
-                    </strong>{" "}
-                    -
-                  </a>
-                  <p className="inline ">Udemy (Oct. 2024)</p>
-                </li>
-                <li>
-                  <a
-                    href="https://drive.google.com/file/d/1ktfoBIlGz62Dox3s2Y0pJ6qyL75Aganf/view"
-                    className="inline  text-blue-500"
-                  >
-                    <strong>Modern Javascript</strong> -
-                  </a>
-                  <p className="inline ">Udemy (Oct. 18 2024)</p>
-                </li>
-                <li>
-                  <a
-                    href="https://drive.google.com/file/d/166EGotfwtT3YArRjAPhiFuQzRyLjwosm/view"
-                    className="inline  text-blue-500"
-                  >
-                    <strong>NLSC Basic Korean Class</strong> -
-                  </a>
-                  <p className="inline ">NLSC (Oct - Nov 2024)</p>
-                </li>
-              </ul>
-            </motion.p>
-          )}
+
+    
         </motion.div>
       </motion.div>
     </section>

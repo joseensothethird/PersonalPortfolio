@@ -280,7 +280,15 @@ export const Projects = () => {
           <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5   ">
             <h1 className="text-center font-bold text-[20px] ">
               SaturnPay Exchange
-            </h1>
+            </h1> <motion.p
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
+              viewport={{ once: true }}
+              className="text-center text-gray-500"
+            >
+             (They updated the design) 
+            </motion.p>
             <motion.p
               initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -323,7 +331,7 @@ export const Projects = () => {
               </a>
               <a
                 className="flex font-semibold items-center justify-between gap-2"
-                href="https://saturnpay.io/"
+                href="https://saturnpay.co/"
                 target="_blank"
                 rel="noreferrer noopener"
               >
@@ -545,7 +553,7 @@ export const Projects = () => {
               >
                 <img
                   className="w-full h-full object-cover rounded-xl shadow-mmd border-t border-l border-slate-600"
-                  src="/images/projects/csa.jpg"  // Use a leading slash
+                  src="/images/projects/nakedly.jpg"  // Use a leading slash
                   alt=""
                 />
 
@@ -554,7 +562,7 @@ export const Projects = () => {
           </div>
           <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5">
             <h1 className="text-center font-bold text-[20px]">
-              Cyber Security Projects
+             Nakedly
             </h1>
             <motion.p
               initial={{ opacity: 0, x: -50 }}
@@ -563,31 +571,42 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-              I am currently self-studying Google Cybersecurity on Coursera (September 2024 - Ongoing).
+             Full-Stack Work Project | Freelance
             </motion.p>
+          <motion.p
+  initial={{ opacity: 0, x: -50 }}
+  whileInView={{ opacity: 1, x: 0 }}
+  transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
+  viewport={{ once: true }}
+  className="text-center text-gray-500"
+>
+  Nakedly is a full-stack platform where users can post, update profiles, chat, and manage ads — with an admin panel for content and user control.
+</motion.p>
+
+
             <div className="flex gap-5 justify-center">
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                Linux
+               ReactJS
               </span>
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                SQL
+                NodeJS
               </span>
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                Python
+                ExpressJS
               </span>
             </div>
             <div className="flex gap-5 justify-center">
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                Networking
+                Render(Server)
               </span>
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                Cloud Security
+               Supabase(Storage)
               </span>
             </div>
             <div className="flex gap-5 items-center justify-center">
               <a
                 className="flex font-semibold items-center justify-between gap-2"
-                href="https://drive.google.com/drive/folders/15jTLtDfHzT83P3VccfjEtxMG738Dk8oz?usp=sharing"
+                href="https://nakedly.vercel.app/"
                 target="_blank"
                 rel="noreferrer noopener"
               >
