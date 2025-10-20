@@ -166,13 +166,16 @@ export const Projects = () => {
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 Elementor/Divi
               </span>
-              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                GHL
+             <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+                Yoast
               </span>
+             
               
             </div>
             <div className="flex gap-5 justify-center">
-             
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+                GHL
+              </span>
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 Funneling
               </span>
@@ -428,6 +431,9 @@ export const Projects = () => {
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 JQUERY
               </span>
+               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+               CRUD
+              </span>
             </div>
             <div className="flex gap-5 items-center justify-center"></div>
           </div>
@@ -575,7 +581,7 @@ export const Projects = () => {
           <div className="">
             <a
               className=""
-              href="https://drive.google.com/drive/folders/15jTLtDfHzT83P3VccfjEtxMG738Dk8oz?usp=sharing"
+              href="https://scic-worksheet.vercel.app/"
               target="_blank"
               rel="noreferrer noopener"
             >
@@ -588,7 +594,7 @@ export const Projects = () => {
               >
                 <img
                   className="w-full h-full object-cover rounded-xl shadow-mmd border-t border-l border-slate-600"
-                  src="/images/projects/nakedly.jpg"  // Use a leading slash
+                  src="/images/projects/ws.jpg"  // Use a leading slash
                   alt=""
                 />
 
@@ -597,7 +603,7 @@ export const Projects = () => {
           </div>
           <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5">
             <h1 className="text-center font-bold text-[20px]">
-             Nakedly
+             WorkSheet
             </h1>
             <motion.p
               initial={{ opacity: 0, x: -50 }}
@@ -606,7 +612,7 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-             Full-Stack Work Project | Freelance
+             Full-Stack Project 
             </motion.p>
               <motion.p
               initial={{ opacity: 0, x: -50 }}
@@ -615,7 +621,7 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-             Role: Main Developer
+             Role: Main Full-stack Developer
             </motion.p>
           <motion.p
   initial={{ opacity: 0, x: -50 }}
@@ -624,37 +630,48 @@ export const Projects = () => {
   viewport={{ once: true }}
   className="text-center text-gray-500"
 >
-  Nakedly is a full-stack platform where users can post, update profiles, chat, and manage ads — with an admin panel for content and user control.
-</motion.p>
+Full-stack app with login, secret messages, friends, and 5 mini-apps (to-do, photos, reviews, notes). Built with React, Supabase, and full test coverage. Users can only see their own data and friends' secrets.</motion.p>
 
 
             <div className="flex gap-5 justify-center">
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-               ReactJS
+               NextJS
               </span>
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                NodeJS
+                SupaBase
               </span>
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                ExpressJS
+                Vercel
               </span>
             </div>
             <div className="flex gap-5 justify-center">
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                Render(Server)
+                PostgreSQL
               </span>
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-               Supabase(Storage)
+               CRUD
+              </span>
+                  <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+               API
               </span>
             </div>
             <div className="flex gap-5 items-center justify-center">
               <a
                 className="flex font-semibold items-center justify-between gap-2"
-                href="https://nakedly.vercel.app/"
+                href="https://scic-worksheet.vercel.app/"
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                Projects{" "}
+                WorkSheet Pt.1{" "}
+                <i className="fa-solid fa-share-from-square text-2xl"></i>
+              </a>
+             <a
+                className="flex font-semibold items-center justify-between gap-2"
+                href="https://worksheet-pt2.vercel.app/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                WorkSheet Pt.2{" "}
                 <i className="fa-solid fa-share-from-square text-2xl"></i>
               </a>
             </div>
