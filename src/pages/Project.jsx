@@ -14,12 +14,7 @@ export const Projects = () => {
         {/* First Project */}
         <div className="bg-white rounded-xl shadow-md xl:flex items-start p-10 gap-5 mt-10">
           <div className="">
-            <a
-              className=""
-              href="*"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
+            <a className="" href="*" target="_blank" rel="noreferrer noopener">
               <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 whileInView={{ opacity: 1, x: 0 }}
@@ -36,9 +31,7 @@ export const Projects = () => {
             </a>
           </div>
           <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5">
-            <h1 className="text-center font-bold text-[20px]">
-              Talkaroo
-            </h1>
+            <h1 className="text-center font-bold text-[20px]">Talkaroo</h1>
             <motion.p
               initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -55,7 +48,9 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-              Empowering language learners through innovative education solutions to unlock global communication, cultural connection, and personal growth.
+              Empowering language learners through innovative education
+              solutions to unlock global communication, cultural connection, and
+              personal growth.
             </motion.p>
             <div className="flex gap-5 justify-center">
               <span className="shadow-mmd border-t border-l border-slate-600 px-5 py-2 rounded-md">
@@ -74,19 +69,17 @@ export const Projects = () => {
               </span>
               <span className="shadow-mmd border-t border-l border-slate-600 px-5 py-2 rounded-md">
                 <strong>O</strong>auth2
-              </span><span className="shadow-mmd border-t border-l border-slate-600 px-5 py-2 rounded-md">
+              </span>
+              <span className="shadow-mmd border-t border-l border-slate-600 px-5 py-2 rounded-md">
                 <strong>A</strong>I Chatbot
               </span>
             </div>
             <div className="flex gap-5 justify-center">
-             
               <span className="shadow-mmd border-t border-l border-slate-600 px-5 py-2 rounded-md">
                 <strong>A</strong>PI
               </span>
-
             </div>
             <div className="flex gap-5 items-center justify-center">
-
               <a
                 className="flex font-semibold items-center justify-between gap-2"
                 href="https://talkaroo-v-1.vercel.app/"
@@ -135,24 +128,26 @@ export const Projects = () => {
             >
               Work Project | WordPress
             </motion.p>
-              <motion.p
+            <motion.p
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-             Role: Main WordPress Developer
+              Role: Main WordPress Developer
             </motion.p>
-         <motion.p
-  initial={{ opacity: 0, x: 50 }}
-  whileInView={{ opacity: 1, x: 0 }}
-  transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
-  viewport={{ once: true }}
-  className="text-center text-gray-500"
->
-  Built using the Divi theme, this real estate website features listing plugins, Yoast SEO, and custom-coded styling. During this project, I also gained experience with GHL and funnel marketing.
-</motion.p>
+            <motion.p
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
+              viewport={{ once: true }}
+              className="text-center text-gray-500"
+            >
+              Built using the Divi theme, this real estate website features
+              listing plugins, Yoast SEO, and custom-coded styling. During this
+              project, I also gained experience with GHL and funnel marketing.
+            </motion.p>
 
             <div className="flex gap-5 justify-center">
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
@@ -166,11 +161,9 @@ export const Projects = () => {
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 Elementor/Divi
               </span>
-             <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 Yoast
               </span>
-             
-              
             </div>
             <div className="flex gap-5 justify-center">
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
@@ -228,16 +221,16 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-              Work Project  | WordPress
+              Work Project | WordPress
             </motion.p>
-              <motion.p
+            <motion.p
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-             Role: Help Payment Integration
+              Role: Help Payment Integration
             </motion.p>
             <motion.p
               initial={{ opacity: 0, x: -50 }}
@@ -300,14 +293,15 @@ export const Projects = () => {
           <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5   ">
             <h1 className="text-center font-bold text-[20px] ">
               SaturnPay Exchange
-            </h1> <motion.p
+            </h1>{" "}
+            <motion.p
               initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-             (They updated the design) 
+              (They updated the design)
             </motion.p>
             <motion.p
               initial={{ opacity: 0, x: 50 }}
@@ -318,14 +312,14 @@ export const Projects = () => {
             >
               Work Project | Front-End
             </motion.p>
-              <motion.p
+            <motion.p
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-             Role: Main Frontend Developer
+              Role: Main Frontend Developer
             </motion.p>
             <motion.p
               initial={{ opacity: 0, x: 50 }}
@@ -431,8 +425,8 @@ export const Projects = () => {
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 JQUERY
               </span>
-               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-               CRUD
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+                CRUD
               </span>
             </div>
             <div className="flex gap-5 items-center justify-center"></div>
@@ -469,14 +463,14 @@ export const Projects = () => {
             >
               Work Project | Front-End
             </motion.p>
-              <motion.p
+            <motion.p
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-             Role: Main Frontend Developer
+              Role: Main Frontend Developer
             </motion.p>
             <motion.p
               initial={{ opacity: 0, x: 50 }}
@@ -548,12 +542,16 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-              All my <strong>UI/UX</strong> designs are uploaded here, including:
+              All my <strong>UI/UX</strong> designs are uploaded here,
+              including:
             </motion.p>
             <ul className="text-center text-gray-500 list-disc list-inside">
               <li>Figma Files</li>
               <li>Live Demos</li>
-              <li>Prototype <br />Iterations</li>
+              <li>
+                Prototype <br />
+                Iterations
+              </li>
             </ul>
 
             <div className="flex gap-5 justify-center">
@@ -594,17 +592,14 @@ export const Projects = () => {
               >
                 <img
                   className="w-full h-full object-cover rounded-xl shadow-mmd border-t border-l border-slate-600"
-                  src="/images/projects/ws.jpg"  // Use a leading slash
+                  src="/images/projects/ws.jpg" // Use a leading slash
                   alt=""
                 />
-
               </motion.div>
             </a>
           </div>
           <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5">
-            <h1 className="text-center font-bold text-[20px]">
-             WorkSheet
-            </h1>
+            <h1 className="text-center font-bold text-[20px]">WorkSheet</h1>
             <motion.p
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -612,30 +607,33 @@ export const Projects = () => {
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-             Full-Stack Project 
+              Full-Stack Project
             </motion.p>
-              <motion.p
+            <motion.p
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-             Role: Main Full-stack Developer
+              Role: Main Full-stack Developer
             </motion.p>
-          <motion.p
-  initial={{ opacity: 0, x: -50 }}
-  whileInView={{ opacity: 1, x: 0 }}
-  transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
-  viewport={{ once: true }}
-  className="text-center text-gray-500"
->
-Full-stack app with login, secret messages, friends, and 5 mini-apps (to-do, photos, reviews, notes). Built with React, Supabase, and full test coverage. Users can only see their own data and friends' secrets.</motion.p>
-
+            <motion.p
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
+              viewport={{ once: true }}
+              className="text-center text-gray-500"
+            >
+              Full-stack app with login, secret messages, friends, and 5
+              mini-apps (to-do, photos, reviews, notes). Built with React,
+              Supabase, and full test coverage. Users can only see their own
+              data and friends' secrets.
+            </motion.p>
 
             <div className="flex gap-5 justify-center">
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-               NextJS
+                NextJS
               </span>
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 SupaBase
@@ -649,10 +647,10 @@ Full-stack app with login, secret messages, friends, and 5 mini-apps (to-do, pho
                 PostgreSQL
               </span>
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-               CRUD
+                CRUD
               </span>
-                  <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-               API
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+                API
               </span>
             </div>
             <div className="flex gap-5 items-center justify-center">
@@ -665,7 +663,7 @@ Full-stack app with login, secret messages, friends, and 5 mini-apps (to-do, pho
                 WorkSheet Pt.1{" "}
                 <i className="fa-solid fa-share-from-square text-2xl"></i>
               </a>
-             <a
+              <a
                 className="flex font-semibold items-center justify-between gap-2"
                 href="https://worksheet-pt2.vercel.app/"
                 target="_blank"
@@ -678,7 +676,7 @@ Full-stack app with login, secret messages, friends, and 5 mini-apps (to-do, pho
           </div>
         </div>
 
-         <div className="bg-white rounded-xl shadow-md xl:flex items-start p-10 gap-5 mt-10">
+        <div className="bg-white rounded-xl shadow-md xl:flex items-start p-10 gap-5 mt-10">
           <div className="">
             <a
               className=""
@@ -712,9 +710,9 @@ Full-stack app with login, secret messages, friends, and 5 mini-apps (to-do, pho
               viewport={{ once: true }}
               className="text-center text-gray-500"
             >
-              Landing page for a crypto trading website, exchange platform, and live trading.
+              Landing page for a crypto trading website, exchange platform, and
+              live trading.
             </motion.p>
-          
 
             <div className="flex gap-5 justify-center">
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
@@ -726,14 +724,11 @@ Full-stack app with login, secret messages, friends, and 5 mini-apps (to-do, pho
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 API
               </span>
-              
             </div>
-             <div className="flex gap-5 justify-center">
-             
+            <div className="flex gap-5 justify-center">
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                Trading View 
+                Trading View API
               </span>
-              
             </div>
             <div className="flex gap-5 items-center justify-center">
               <a
@@ -746,6 +741,163 @@ Full-stack app with login, secret messages, friends, and 5 mini-apps (to-do, pho
                 <i className="fa-solid fa-share-from-square text-2xl"></i>
               </a>
             </div>
+            <div className="flex gap-5 items-center justify-center"></div>
+          </div>
+        </div>
+        {/* 10th Project */}
+        <div className="bg-white rounded-xl shadow-md xl:flex xl:flex-row-reverse items-start p-10 gap-5 mt-10">
+          <div className="">
+            <a
+              className=""
+              href="https://whale-livid.vercel.app/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <motion.div
+                initial={{ opacity: 0, x: 50 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
+                viewport={{ once: true }}
+                className="w-full"
+              >
+                <img
+                  className="w-full h-full object-cover rounded-xl shadow-mmd border-t border-l border-slate-600"
+                  src="/images/projects/whale.png" // Use a leading slash
+                  alt=""
+                />
+              </motion.div>
+            </a>
+          </div>
+          <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5">
+            <h1 className="text-center font-bold text-[20px]">
+              Whale Aggregator - Web3 Data Aggregation DApp
+            </h1>
+            <motion.p
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
+              viewport={{ once: true }}
+              className="text-center text-gray-500"
+            >
+              Front-end Project
+            </motion.p>
+            <motion.p
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
+              viewport={{ once: true }}
+              className="text-center text-gray-500"
+            >
+              Role: Assistant Developer
+            </motion.p>
+            <motion.p
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
+              viewport={{ once: true }}
+              className="text-center text-gray-500"
+            >
+              A modern, user-friendly decentralized application (DApp) that
+              aggregates comprehensive web3 data into a unified dashboard with
+              elegant UI/UX. Built with responsive design principles, Whale
+              Aggregator delivers blockchain insights across both desktop and
+              mobile platforms while maintaining a sleek, intuitive interface.
+            </motion.p>
+
+            <div className="flex gap-5 justify-center">
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+                NextJS
+              </span>
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+                SupaBase
+              </span>
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+                Vercel
+              </span>
+            </div>
+            <div className="flex gap-5 justify-center">
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+                PostgreSQL
+              </span>
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+                TypeScript
+              </span>
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+                API
+              </span>
+            </div>
+            <div className="flex gap-5 items-center justify-center">
+              <a
+                className="flex font-semibold items-center justify-between gap-2"
+                href="https://whale-livid.vercel.app/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Live <i className="fa-solid fa-share-from-square text-2xl"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="bg-white rounded-xl shadow-md xl:flex items-start p-10 gap-5 mt-10">
+          <div className="">
+            <a
+              className=""
+              href="#"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <motion.div
+                initial={{ opacity: 0, x: -50 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
+                viewport={{ once: true }}
+                className="w-full"
+              >
+                <img
+                  className="w-full h-full object-cover rounded-xl shadow-mmd border-t border-l border-slate-600"
+                  src="/images/projects/defi.png"
+                  alt=""
+                />
+              </motion.div>
+            </a>
+          </div>
+          <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5">
+            <h1 className="text-center font-bold text-[20px]">
+              DeFi Launchpad & Token Management Platform
+            </h1>
+            <motion.p
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
+              viewport={{ once: true }}
+              className="text-center text-gray-500"
+            >
+              A comprehensive decentralized finance platform built with modern
+              web technologies, providing tools for token creation, staking,
+              farming, and liquidity management in the blockchain ecosystem.
+            </motion.p>
+
+            <div className="flex gap-5 justify-center">
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+                ReactJS
+              </span>
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+                TailwindCSS
+              </span>
+              
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+                NodeJS
+              </span>
+            </div>
+            <div className="flex gap-5 justify-center">
+               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+                ViteJS
+              </span>
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+                ExpressJS
+              </span>
+            </div>
+            
             <div className="flex gap-5 items-center justify-center"></div>
           </div>
         </div>
