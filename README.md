@@ -9,13 +9,24 @@ I am a Computer Engineering graduate with experience in React.js, WordPress, and
 ## <strong>Key Skills</strong>
 
 <ul>
-  <li><strong>Frontend Development</strong>: React.js, Vue.js, HTML, CSS, Tailwind CSS, Bootstrap</li>
-  <li><strong>Backend Development</strong>: Node.js, Express.js, PHP</li>
-  <li><strong>Database Management</strong>: MySQL, Firebase</li>
-  <li><strong>Tools</strong>: Git, GitHub, VSCode</li>
-  <li><strong>Frameworks</strong>: Next.js, Vue.js, Tailwind CSS, WordPress</li>
-  <li><strong>Experience</strong>: React, WordPress, IoT Projects, API Integration</li>
+  <li><strong>Frontend Development</strong>: React.js, Vue.js, Next.js, Angular, HTML, CSS, Tailwind CSS, Bootstrap, Vuetify 3</li>
+
+  <li><strong>Backend Development</strong>: Node.js, Express.js, NestJS, PHP (CodeIgniter 3, Laravel)</li>
+
+  <li><strong>Database Management</strong>: PostgreSQL, MySQL, MongoDB, Firebase, Supabase</li>
+
+  <li><strong>Automation & Integrations</strong>: Zapier, n8n, GoHighLevel (GHL), Webhooks, Google Workspace Automation, Form Integrations (JotForm, custom forms)</li>
+
+  <li><strong>CMS & eCommerce</strong>: WordPress (Divi, Elementor), Shopify, Funnel Building, SEO (Yoast)</li>
+
+  <li><strong>APIs & Auth</strong>: REST APIs, OAuth2, SMS & Gmail Verification, Payment Integrations</li>
+
+  <li><strong>DevOps & Tools</strong>: Git, GitHub, Docker, AWS (basic), CI/CD, Render, Vercel, VS Code</li>
+
+
+  <li><strong>Experience</strong>: Full-Stack Development, Automation Workflows, Marketing Funnels, UI/UX Optimization, Performance & SEO</li>
 </ul>
+
 
 ## <strong>Projects</strong>
 

@@ -71,34 +71,44 @@ export const About = () => {
           variants={textVariant}
           className="flex flex-col gap-5 sm:text-center xl:text-justify"
         >
-         <h1 className="text-blue-400 font-bold">ABOUT ME 😉</h1>
-<h2 className="text-2xl text-slate-900 font-bold sm:text-center md:text-start">
-  A dedicated Remote Web Developer based in Valenzuela, Philippines 📍
-</h2>
+          <h1 className="text-blue-400 font-bold">ABOUT ME 😉</h1>
+          <h2 className="text-2xl text-slate-900 font-bold sm:text-center md:text-start">
+            A dedicated Remote Web Developer based in Valenzuela, Philippines 📍
+          </h2>
 
-<motion.p
-  initial={{ opacity: 0, y: 20 }}
-  whileInView={{ opacity: 1, y: 0 }}
-  transition={{ duration: 0.6, ease: "easeOut" }}
-  viewport={{ once: true, amount: 0.8 }}
-  className="sm:text-center xl:text-start text-gray-800 tracking-wide text-[16px] sm:mt-0 leading-6"
->
-  <strong>Hi, I’m Jose C. Enso III</strong> — a Full-Stack Web Developer and Computer Engineer 
-  skilled in <strong>React.js, Vue.js, Node.js, WordPress,</strong> and <strong>Shopify</strong>.  
-  I build modern, responsive, and high-performance websites with seamless UI/UX and clean backend logic.  
-  <br /><br />
-  <Code size={16} className="inline-block mr-2" /> Frontend: React.js, Vue.js, Tailwind  
-  <br />
-  <Code size={16} className="inline-block mr-2" /> Backend: Node.js, Express, NestJS  
-  <br />
-  <Code size={16} className="inline-block mr-2" /> CMS & eCommerce: WordPress, Shopify  
-  <br />
-  <Zap size={16} className="inline-block mr-2" /> Currently exploring Cybersecurity 🔐  
-</motion.p>
-
-
-
-    
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+            viewport={{ once: true, amount: 0.8 }}
+            className="sm:text-center xl:text-start text-gray-800 tracking-wide text-[16px] sm:mt-0 leading-6"
+          >
+            <strong>Hi, I’m Jose C. Enso III</strong> — a Full-Stack Web
+            Developer and Computer Engineer with hands-on experience building
+            scalable web apps, automation workflows, and conversion-focused
+            platforms. I specialize in{" "}
+            <strong>React.js, Vue.js, Next.js, Node.js, WordPress,</strong> and{" "}
+            <strong>Shopify</strong>, delivering fast, secure, and maintainable
+            solutions with polished UI/UX and solid backend architecture.
+            <br />
+            <br />
+            <strong>Frontend:</strong> React.js, Vue.js, Next.js, Tailwind,
+            Vuetify
+            <br />
+            <strong>Backend:</strong> Node.js, Express, NestJS, PHP
+            (CodeIgniter, Laravel)
+            <br />
+            <strong>Databases:</strong> PostgreSQL, MySQL, MongoDB, Supabase
+            <br />
+            <strong>Automation & Integrations:</strong> Zapier, n8n, GoHighLevel
+            (GHL), Webhooks, APIs
+            <br />
+            <strong>CMS & eCommerce:</strong> WordPress (Divi, Elementor),
+            Shopify, Funnels & SEO
+            <br />
+            <strong>Currently exploring:</strong> Cybersecurity & Game
+            Development (Roblox)
+          </motion.p>
         </motion.div>
       </motion.div>
     </section>
