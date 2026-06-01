@@ -77,6 +77,7 @@ export const Home = () => {
               <motion.div initial={{ opacity: 0, y: -50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1.2, type: 'spring', bounce: 0.4 }} className="w-[60px] bg-white shadow-xl rounded-full p-3 cursor-pointer"> <img className="w-full h-full object-contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" /></motion.div>
               <motion.div initial={{ opacity: 0, y: -50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1.5, type: 'spring', bounce: 0.4 }} className="w-[60px] bg-white shadow-xl rounded-full  p-3 cursor-pointer "><img className="w-full h-full object-cover" src="images/icons/github.jpg" alt="" /></motion.div>
               <motion.div initial={{ opacity: 0, y: -50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1.5, type: 'spring', bounce: 0.4 }} className="w-[60px] bg-white shadow-xl rounded-full  p-3 cursor-pointer "><img className="w-full h-full object-cover" src="/images/icons/linux.svg" alt="Linux" /></motion.div>
+              <motion.div initial={{ opacity: 0, y: -50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1.5, type: 'spring', bounce: 0.4 }} className="w-[60px] bg-white shadow-xl rounded-full p-3 cursor-pointer "><img className="w-full h-full object-cover" src="/images/icons/ghl.jpeg" alt="GoHighLevel" /></motion.div>
           </div>
           </div>
 
