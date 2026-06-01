@@ -840,12 +840,7 @@ export const Projects = () => {
         </div>
         <div className="bg-white rounded-xl shadow-md xl:flex items-start p-10 gap-5 mt-10">
           <div className="">
-            <a
-              className=""
-              href="#"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
+            <a className="" href="#" target="_blank" rel="noreferrer noopener">
               <motion.div
                 initial={{ opacity: 0, x: -50 }}
                 whileInView={{ opacity: 1, x: 0 }}
@@ -884,31 +879,26 @@ export const Projects = () => {
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 TailwindCSS
               </span>
-              
+
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 NodeJS
               </span>
             </div>
             <div className="flex gap-5 justify-center">
-               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 ViteJS
               </span>
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
                 ExpressJS
               </span>
             </div>
-            
+
             <div className="flex gap-5 items-center justify-center"></div>
           </div>
         </div>
-         <div className="bg-white rounded-xl shadow-md xl:flex xl:flex-row-reverse items-start p-10 gap-5 mt-10">
+        <div className="bg-white rounded-xl shadow-md xl:flex xl:flex-row-reverse items-start p-10 gap-5 mt-10">
           <div className="">
-            <a
-              className=""
-              href="#"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
+            <a className="" href="#" target="_blank" rel="noreferrer noopener">
               <motion.div
                 initial={{ opacity: 0, x: 50 }}
                 whileInView={{ opacity: 1, x: 0 }}
@@ -918,66 +908,73 @@ export const Projects = () => {
               >
                 <img
                   className="w-full h-full object-cover rounded-xl shadow-mmd border-t border-l border-slate-600"
-                  src="/images/projects/automation.png" // Use a leading slash
-                  alt=""
+                  src="/images/projects/ace.png" // Use a leading slash
+                  alt="automation"
                 />
               </motion.div>
             </a>
           </div>
           <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5">
             <h1 className="text-center font-bold text-[20px]">
-Automation  </h1>
-            
-            
-      <motion.p
-  initial={{ opacity: 0, x: -50 }}
-  whileInView={{ opacity: 1, x: 0 }}
-  transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
-  viewport={{ once: true }}
-  className="text-left text-gray-500"
->
-  <ul className="list-disc ml-5">
-    <li>
-      <strong>n8n Automations</strong>
-      <ul className="list-disc ml-5 mt-1">
-        <li>Multi-Account Gmail Consolidation to Primary Inbox</li>
-        <li>Crypto Price Tracker with Gmail Alerts and Daily ATH Monitor</li>
-      </ul>
-    </li>
-    <li className="mt-2">
-      <strong>Zapier Zaps</strong>
-      <ul className="list-disc ml-5 mt-1">
-        <li>FB / YouTube Video Automated Post</li>
-      </ul>
-    </li>
-  </ul>
-</motion.p>
+              Insurance Compliance SMS Campaign (GoHighLevel Workflow){" "}
+            </h1>
 
-
-
-
+            <motion.p
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
+              viewport={{ once: true }}
+              className="text-left text-gray-500"
+            >
+              {" "}
+              Freelance Project
+              <ul className="list-disc ml-5">
+                <li className="mt-2">
+                  <strong>GoHighLevel Workflow (Four Ace Electrical)</strong>
+                  <ul className="list-disc ml-5 mt-1">
+                    <li>
+                      End-to-end GHL workflow with conditional reply handling
+                    </li>
+                    <li>3‑message SMS sequence with 2‑day and 3‑day delays</li>
+                    <li>
+                      Reply detection logic (Interested, How much?, What is this
+                      for?) with automated responses
+                    </li>
+                    <li>
+                      Pipeline configuration (New → SMS Sent → Replied
+                      Interested → Inspection Booked → Repair Booked → Won)
+                    </li>
+                    <li>
+                      Tagging system for clean lead segmentation (Interested,
+                      Inspection Booked, Do Not Contact)
+                    </li>
+                    <li>
+                      Manual booking handoff with notification to client team
+                    </li>
+                    <li>STOP opt‑out compliance handling</li>
+                  </ul>
+                </li>
+              </ul>
+            </motion.p>
 
             <div className="flex gap-5 justify-center">
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                GHL
+                GoHighLevel
               </span>
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                Zapier 
+                Twilio (SMS)
               </span>
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                Make
+                CSV Import
               </span>
             </div>
             <div className="flex gap-5 justify-center">
               <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                N8N
+                Calendly‑style Booking Link
               </span>
-              
             </div>
-            
           </div>
         </div>
-        
       </div>
     </section>
   );
