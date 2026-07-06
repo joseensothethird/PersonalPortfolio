@@ -55,7 +55,7 @@ export const Home = () => {
 
           <div className="mt-6 flex items-center sm:justify-center xl:justify-start">
   <a className="" href="https://www.linkedin.com/in/jose-ensoiii/" target="_blank"rel="noreferrer noopener"><i className="fa-brands fa-linkedin text-3xl"></i></a>
-  <a className="" href="https://github.com/JoseEnsoIII" target="_blank"rel="noreferrer noopener"><i className="fa-brands fa-square-github text-3xl ml-5"></i></a>
+  <a className="" href="https://github.com/joseensothethird/JoseEnsoIII" target="_blank"rel="noreferrer noopener"><i className="fa-brands fa-square-github text-3xl ml-5"></i></a>
   <a className="" href="https://www.facebook.com/enso.jose.31/" target="_blank"rel="noreferrer noopener"><i className="fa-brands fa-square-facebook text-3xl ml-5"></i></a>
   <a className="" href="https://www.instagram.com/ensothethird/" target="_blank"rel="noreferrer noopener"><i className="fa-brands fa-square-instagram text-3xl ml-5"></i></a>
  </div>

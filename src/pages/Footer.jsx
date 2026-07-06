@@ -24,7 +24,7 @@ export const Footer = () => {
             </a>
             <a
               className="text-white"
-              href="https://github.com/JoseEnsoIII"
+              href="https://github.com/joseensothethird/JoseEnsoIII"
               target="_blank"
               rel="noreferrer noopener"
             >
