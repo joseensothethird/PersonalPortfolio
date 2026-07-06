@@ -916,63 +916,109 @@ export const Projects = () => {
           </div>
           <div className="w-full xl:mt-0 sm:mt-5 flex flex-col gap-5">
             <h1 className="text-center font-bold text-[20px]">
-              Insurance Compliance SMS Campaign (GoHighLevel Workflow){" "}
+              Automation Projects <br/>(GoHighLevel Workflow){" "}
             </h1>
+<hr/>
+        
 
-            <motion.p
-              initial={{ opacity: 0, x: -50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5, type: "tween", delay: 0.2 }}
-              viewport={{ once: true }}
-              className="text-left text-gray-500"
-            >
-              {" "}
-              Freelance Project
-              <ul className="list-disc ml-5">
-                <li className="mt-2">
-                  <strong>GoHighLevel Workflow (Four Ace Electrical)</strong>
-                  <ul className="list-disc ml-5 mt-1">
-                    <li>
-                      End-to-end GHL workflow with conditional reply handling
-                    </li>
-                    <li>3‑message SMS sequence with 2‑day and 3‑day delays</li>
-                    <li>
-                      Reply detection logic (Interested, How much?, What is this
-                      for?) with automated responses
-                    </li>
-                    <li>
-                      Pipeline configuration (New → SMS Sent → Replied
-                      Interested → Inspection Booked → Repair Booked → Won)
-                    </li>
-                    <li>
-                      Tagging system for clean lead segmentation (Interested,
-                      Inspection Booked, Do Not Contact)
-                    </li>
-                    <li>
-                      Manual booking handoff with notification to client team
-                    </li>
-                    <li>STOP opt‑out compliance handling</li>
-                  </ul>
-                </li>
-              </ul>
-            </motion.p>
 
-            <div className="flex gap-5 justify-center">
-              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                GoHighLevel
-              </span>
-              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                Twilio (SMS)
-              </span>
-              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                CSV Import
-              </span>
-            </div>
-            <div className="flex gap-5 justify-center">
-              <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
-                Calendly‑style Booking Link
-              </span>
-            </div>
+  <div className="mt-3">
+    <strong className="text-black">
+      FourAce Insurance Compliance Campaign
+    </strong>
+
+    <ul className="list-disc ml-5 mt-2">
+  <li>
+    Developed a GoHighLevel workflow for insurance inspection campaigns with
+    automated SMS outreach and lead nurturing.
+  </li>
+  <li>
+    Configured conditional workflows using reply-based waits, keyword
+    detection, opportunity creation, pipeline automation, and contact tagging.
+  </li>
+  <li>
+    Integrated booking automation, internal SMS/email notifications, and
+    appointment-based workflow progression.
+  </li>
+  <li>
+    Automated post-inspection processes, including repair tracking, opportunity
+    stage updates, and compliance-focused opt-out handling.
+  </li>
+</ul>
+  </div>
+
+  <hr className="my-4" />
+
+  <div>
+    <strong className="text-black">
+      Insurance Compliance Campaign v.2.1
+    </strong>
+
+    <ul className="list-disc ml-5 mt-2">
+  <li>
+    Built a GoHighLevel insurance campaign workflow with automated SMS
+    sequences and reply-based lead qualification.
+  </li>
+  <li>
+    Configured conditional logic to detect customer responses, apply contact
+    tags, and trigger workflow branching.
+  </li>
+  <li>
+    Automated CRM opportunity creation and internal email notifications for
+    qualified leads requiring CSR follow-up.
+  </li>
+  <li>
+    Designed a multi-touch follow-up sequence to re-engage non-responsive
+    contacts and improve campaign response rates.
+  </li>
+</ul>
+  </div>
+<hr/>
+<div className="flex flex-wrap gap-5 justify-center">
+  <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+    GoHighLevel
+  </span>
+
+  <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+    Workflow Automation
+  </span>
+
+  <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+    SMS Campaigns
+  </span>
+
+  <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+    Twilio
+  </span>
+
+  <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+    CRM Pipelines
+  </span>
+
+  <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+    Lead Segmentation
+  </span>
+
+  <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+    CSV Import
+  </span>
+
+  <span className="shadow-mmd px-5 py-2 rounded-md border-t border-l border-slate-600">
+    Booking Automation
+  </span>
+</div>
+<hr/>
+<div className="flex gap-5 items-center justify-center">
+  <a
+    className="flex font-semibold items-center justify-between gap-2"
+    href="https://drive.google.com/drive/folders/1L0VP7cMv5kPj818aoqoqJDBg8CZ8zBop?usp=sharing"
+    target="_blank"
+    rel="noreferrer noopener"
+  >
+    Sample Automation Projects
+    <i className="fa-solid fa-share-from-square text-2xl"></i>
+  </a>
+</div>
           </div>
         </div>
       </div>
